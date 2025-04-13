@@ -1,3 +1,25 @@
+MCP 에이전트를 도커 이미지로 배포하였습니다.
+이제 더이상 OS / 파이썬 설치로 고통 받지 않으셔도 됩니다.
+
+✅ 사용방법(도커로 설치 부분만 보세요)
+https://github.com/teddynote-lab/langgraph-mcp-agents/blob/master/README_KOR.md
+
+✅ 주요기능:
+- Claude Sonnet, Haiku / GPT-4o, GPT-4o-mini 지원
+- smithery.ai 의 툴 사용 지원
+- LangGraph 의 ReAct Agent
+- 멀티턴 대화
+- 도구의 추가 및 삭제 관리
+- amd64 / arm64 아키텍처 지원
+
+✅ 설치 명령어
+git clone https://github.com/teddynote-lab/langgraph-mcp-agents.git
+cd dockers
+docker compose -f docker-compose-KOR.yaml up -d
+
+감사합니다. 좋은 주말 되세요.
+
+
 # LangGraph Agents + MCP
 
 [![English](https://img.shields.io/badge/Language-English-blue)](README.md) [![Korean](https://img.shields.io/badge/Language-한국어-red)](README_KOR.md)
